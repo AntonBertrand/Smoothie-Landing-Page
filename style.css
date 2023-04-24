@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&family=Teko:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(237, 237, 237);
+    padding: 0 2rem;
+    align-items: center;
+    color: rgb(94, 60, 2);
+    font-weight: bold;
+}
+
+.navBar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navBar li {
+    margin: 2rem;
+}
+
+H2 {
+    font-weight: 800;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(237, 237, 237);
+    padding-bottom: 7rem;
+}
+
+.hero .box {
+    display: flex;
+    border: 1px solid;
+    padding: 0.6rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero .box p{
+    padding-right: 1rem;
+}
+
+.hero .box button {
+    color: white;
+    background: rgb(94, 60, 2);
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.hero-img {
+    text-align: center;
+}
+
+.hero-img img {
+    margin-top: -6rem;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.section-1 h2 {
+    font-size: 2rem;
+    color: rgb(94, 60, 2);;
+}
+
+.section-1 button {
+    color: white;
+    background: rgb(94, 60, 2);
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.section-1 .left-col > * {
+    margin-bottom: 1.5rem;
+}
+
+.section-2 h2 {
+    font-size: 1.6rem;
+    color: rgb(94, 60, 2);;
+}
+
+.section-2 button {
+    color: white;
+    background: rgb(94, 60, 2);
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.section-2 .right-col > * {
+    margin-bottom: 1.5rem;
+}
+
+.section-2 {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    
+}
+
+.green-bg {
+    background: #9dfca2;
+}
+
+.yellow-bg {
+    background: #fcca57;
+}
+
+
+
+footer .top {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 0rem;
+    justify-content: center;
+}
+
+footer .top .col-2 form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .top .col-1 h3 {
+    color: rgb(8, 8, 179);
+    padding: 1rem 0;
+}
+
+footer .top .socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .top .col-2 form label {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .top .col-2 form input {
+    margin: 1rem 0rem;
+    width: 25rem;
+    height: 2rem;
+    
+}
+
+footer .top .col-2 form input::placeholder {
+    text-align: center;
+}
+
+footer .top .col-2 form button {
+    color: white;
+    background: rgb(94, 60, 2);
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+}
+
+footer .bottom {
+    background: rgb(113, 55, 105);
+    color: white;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
